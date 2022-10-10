@@ -198,7 +198,7 @@ h4 {
 
 
 .brand h1 span {
-    color: crimson;
+    color: crimson;a
 }
 
 .footer .social-icon {
@@ -210,8 +210,16 @@ h4 {
 
 }
 
+.footer .social-icon .social-item  img {
+    filter: brightness(0.8);
+}
+
+.footer .social-icon .social-item img:hover {
+    filter: brightness(1);
+}
+
 .footer p {
     margin-top: 50px;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
 }
