@@ -11,14 +11,14 @@ html {
     font-size: 16px;
 }
 .container {
-    width: 1600px;
+    width: 1300px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .header {
     background-color: #5600E1;
-    height: 800px;
+    height: 490px;
 }
 
 .header .logo {
@@ -27,25 +27,25 @@ html {
 
 .header .logo img {
     float: left;
-    margin-left: 220px;
+    margin-left: 200px;
     margin-top: 35px;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
 .header .btn {
     float: right;
-    margin-right: 220px;
+    margin-right: 200px;
     margin-top: 42px;
     background-color: #D9D9D9;
     color: #5600E1;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20;
+    font-size: 18px;
     text-align: center;
-    height: 55px;
-    width: 200px;
-    line-height: 55px;
+    height: 2.75em;
+    width: 10em;
+    line-height: 2.75em;
     transition: transform .4s;
     border-radius: 15px;
 }
@@ -62,23 +62,21 @@ html {
 }
 
 
-
 .header h4 {
     position: absolute;
-    width: 901px;
+    margin-top: 135px;
+    margin-left: 200px;
+    width: 701px;
     height: 263px;
-    font-size: 80px;
-    line-height: 100px;
-    margin-top: 215px;
-    margin-left: 220px;
-    line-height: 100px;
+    font-size: 3.5rem;
+    line-height: 1.2em;
     color: #FFFFFF;
 }
 
 .youtube_prezentare {
     position: absolute;
-    margin-top: 519px;
-    margin-left: 222px;
+    margin-top: 350px;
+    margin-left: 200px;
 }
 
 .youtube_prezentare .logo-youtube {
@@ -89,32 +87,32 @@ html {
 
 
 .youtube_prezentare a {
-  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
-  background-position: 0 100%;
-  background-repeat: repeat-x;
-  background-size: 3px 3px;
-  color: white;
-  text-decoration: none;
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    color: white;
+    text-decoration: none;
 
     font-size: 14px;
     font-weight: medium;
     text-decoration: none;
-}
+    }
 
 .youtube_prezentare a:hover {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-  background-position: 0 100%;
-  background-size: auto 6px;
-  background-repeat: repeat-x;
-  text-decoration: none;
-  color: #d9d9d9f3;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    color: #d9d9d9f3;
 }
 
 .arrow-round-down {
     display: block;
     position: absolute;
-    margin-top: 687px;
-    margin-left: 222px;
+    margin-top: 440px;
+    margin-left: 200px;
     font-size: 25px;
     color: white;
 }
@@ -157,14 +155,12 @@ h4 {
     font-size: 0.9rem;
     padding: 25px;
     line-height: 2rem;;
-    /* border:5px solid red; */
 }
 
 .box .image img {  
     display: block;
     height: 366px;
     border-radius: 50px;
-    /* border:5px solid red; */
 }
 
 .image {
